@@ -12,7 +12,9 @@ bug-reports: "https://github.com/gopiandcode/petrol/issues"
 depends: [
   "ocaml" {>= "4.12"}
   "dune" {>= "3.3" & >= "3.3"}
+  "eio_main" {>= "0.9"}
   "caqti" {>= "1.8.0"}
+  "caqti-eio" {>= "1.8.0"}
   "caqti-driver-sqlite3" {with-test & >= "1.8.0"}
   "caqti-driver-postgresql" {with-test & >= "1.8.0"}
   "odoc" {with-doc}
