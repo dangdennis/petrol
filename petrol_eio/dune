@@ -1,0 +1,4 @@
+(library
+ (name petrol_eio)
+ (public_name petrol_eio)
+ (libraries petrol caqti caqti-eio caqti-eio.unix))
